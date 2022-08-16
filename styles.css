@@ -14,6 +14,7 @@ body{
     background-color:#694F5D;
     display: flex;
     flex-direction: column;
+    padding-bottom: 30px;
 }
 
 .header {
@@ -31,6 +32,7 @@ body{
     gap: 10px;
     align-items: center;
 }
+
 
 ul {
     font-size: 18px;
@@ -53,7 +55,7 @@ a:link {
 
 .intro {
     display: flex;
-    gap: 2%;
+    gap: 5px;
     padding-top: 25px;
     padding-bottom: 25px;
     margin-left: 10%; 
@@ -75,15 +77,17 @@ a:link {
 .left_intro {
     display: flex;
     flex-direction: column;
-    flex: 1;
+    flex: 0 0 50%;
+    flex-wrap: wrap;
 }
 
 .right_intro {
     display: flex;
     flex-direction: row;
-    max-width: 50%;
-    max-height: 50%;
-    flex: 1;
+    flex: 0 0 50%;
+    align-items: flex-end;
+    justify-content: flex-end;
+    
 }
 
 .signupButton {
@@ -94,5 +98,121 @@ a:link {
     border-radius: 4px;
     cursor: pointer;
     border: none;
+    text-align: center;
+}
+
+.infoSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.randomInfo {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.infoPods {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    width: 200px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+
+.podImage {
+    width: 200px;
+    height: 300px;
+    border: 3px solid #68A691;
+    border-radius: 25px;
+}
+
+.statement {
+    background-color: #EFC7C2;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    width:800px;
+}
+
+.author{
+    font-size: 24px;
+    font-weight: bolder;
+
+}
+
+.quoteContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.authorContainer{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 25%;
+
+}
+
+.manoncouch {
+    width: 100%;
+    height: auto;
+    max-width: none;
+}
+
+.signUp {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.comboSignUp {
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    background-color: #BFD3C1;
+    border-radius: 10px;
+}
+
+.signupButton2 {
+    background-color: #68A691;
+    color: white;
+    border: 1px solid white;
+    width: 100px;
+    height: 30px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.itsTime{
+    font-weight: bold;
+}
+
+.footer{
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #694F5D;
     text-align: center;
 }
